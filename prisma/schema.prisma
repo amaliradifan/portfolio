@@ -14,14 +14,16 @@ datasource db {
 }
 
 model Stack {
-  id    String  @id @default(uuid()) @map("_id")
-  name  String
-  image String?
+  id       String  @id @default(uuid()) @map("_id")
+  name     String
+  image    String?
+  category String?
 }
 
 model Project {
   id          String  @id @default(uuid()) @map("_id")
   name        String
+  position    String?
   link        String?
   github      String?
   image       String?
