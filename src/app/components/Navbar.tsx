@@ -9,19 +9,19 @@ const Navbar = () => {
 					<ul className="flex justify-evenly space-x-8 text text-dark-invert font-bold">
 						<a
 							className=" hover:animate-wiggle transition-all duration-300"
-							href=""
+							href="#about"
 						>
 							<li>About</li>
 						</a>
 						<a
 							className=" hover:animate-wiggle transition-all duration-300"
-							href=""
+							href="#projects"
 						>
 							<li>Project</li>
 						</a>
 						<a
 							className=" hover:animate-wiggle transition-all duration-300"
-							href=""
+							href="#contact"
 						>
 							<li>Contact</li>
 						</a>
@@ -43,19 +43,19 @@ const Navbar = () => {
 					<ul className="flex ml-auto space-x-8 text-2xl mr-10 text-dark-invert font-bold">
 						<a
 							className="hover:text-3xl hover:animate-wiggle transition-all duration-300 hover:text-light-brand"
-							href=""
+							href="#about"
 						>
 							<li>About</li>
 						</a>
 						<a
 							className="hover:text-3xl hover:animate-wiggle transition-all duration-300 hover:text-light-brand"
-							href=""
+							href="#projects"
 						>
 							<li>Project</li>
 						</a>
 						<a
 							className="hover:text-3xl hover:animate-wiggle transition-all duration-300 hover:text-light-brand"
-							href=""
+							href="#contact"
 						>
 							<li>Contact</li>
 						</a>

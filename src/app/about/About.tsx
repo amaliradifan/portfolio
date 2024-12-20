@@ -4,7 +4,10 @@ import Stack from "./Stack";
 export default function About() {
 	return (
 		<>
-			<div className="w-5/6 min-h-screen flex flex-col text-xl space-y-5 leading-relaxed">
+			<div
+				id="about"
+				className="w-5/6 min-h-screen flex flex-col text-xl space-y-5 leading-relaxed mt-10"
+			>
 				<h1 className="text-5xl mb-10">About Radifan</h1>
 				<p>
 					<span className="text-light-secondBrand">

@@ -24,6 +24,9 @@ export default function RootLayout({
 			<head>
 				<style>
 					{`
+					 html {
+						scroll-behavior: smooth;
+					  }
 					body::-webkit-scrollbar {
 						width: 16px;
 					}
@@ -54,7 +57,7 @@ export default function RootLayout({
 				</style>
 			</head>
 			<body
-				className={`bg-dark-invert ${inter.className} text-light-invert overscroll-x-hidden`}
+				className={`bg-dark-invert ${inter.className} text-light-invert overscroll-x-hidden cursor-default`}
 				style={{ fontFamily: "FOT-Yuruka Std" }}
 			>
 				<Navbar />

@@ -6,7 +6,7 @@ export default function GithubButton({ link }: { link: string }) {
 	return (
 		<>
 			<a
-				href={link}
+				href={"/google"}
 				className="text-base rounded-3xl bg-light-invert px-5 py-1.5 text-light-primary hover:bg-light-brand hover:animate-wiggle"
 			>
 				<FontAwesomeIcon icon={faGithub} size="1x" /> Github
