@@ -15,7 +15,7 @@ const Projects = async () => {
 				<span className="text-light-brand">Project</span> &{" "}
 				<span className="text-light-second-brand">Craft</span>
 			</h1>
-			{projects.map((project:any) => (
+			{projects.map((project) => (
 				<Project
 					key={project.id}
 					title={project.name}
